@@ -61,7 +61,11 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  column-gap: 5rem;
+  column-gap: 6.4rem;
+}
+
+.text-box {
+  padding: 4.8rem;
 }
 
 .hero-heading {
@@ -212,7 +216,7 @@ header {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 6.4rem;
-  color: #8A8A8A;
+  color: #8a8a8a;
 }
 
 .card-flex {
