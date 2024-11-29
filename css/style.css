@@ -1,0 +1,274 @@
+main {
+  position: relative;
+}
+/* HEADER */
+.header {
+  background-color: #fdf8ee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 4.8rem;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1d1d1d;
+  gap: 0.7rem;
+}
+
+.main-links {
+  display: flex;
+  list-style-type: none;
+  gap: 4.4rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.btn {
+  background-color: #4d2c5e;
+  color: #fff;
+  padding: 1.2rem 3.8rem;
+  border-radius: 100px;
+  font-size: 2.4rem;
+}
+
+/* HERO SECTION */
+.section-hero {
+  background-color: #fdf8ee;
+}
+
+.container-hero {
+  max-width: 144rem;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 9.6rem 4.8rem;
+
+  background-image: url("../img/hero-bg.png");
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.hero-heading {
+  font-size: 7.4rem;
+  letter-spacing: -3px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero-heading span {
+  color: #ff7426;
+}
+
+.hero-text {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 0.8rem;
+  margin-top: 4.8rem;
+}
+
+.search div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  width: 100%;
+}
+
+.search-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.search input {
+  background-color: transparent;
+  font-size: 2rem;
+  border: none;
+  width: 100%;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search button {
+  border: none;
+  background-color: #4d2c5e;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* FEATURE SECTION */
+.section-features {
+  padding: 0 9.6rem;
+  margin-bottom: 8rem;
+}
+
+.container-features {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #4d2c5e;
+  padding: 4.8rem 4.8rem;
+  border-radius: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+}
+
+.feature-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.img-wrapper {
+  background-color: rgba(255, 255, 255, 0.459);
+  padding: 2rem;
+  border-radius: 2.4rem;
+}
+
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.feature-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* TRACTS SECTION */
+
+.container-track {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+}
+
+.card-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6.4rem;
+}
+
+.cards {
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.track-heading {
+  text-align: center;
+  font-size: 5.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.track-text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 6.4rem;
+  color: #8A8A8A;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-flex span {
+  color: #acacac;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.price {
+  font-size: 2rem;
+  color: #ff7426;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.info {
+  border-top: 1px solid;
+  display: flex;
+  gap: 4.4rem;
+  padding: 2rem 0;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.btn-join {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff7426;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  font-size: 2rem;
+  color: #fff;
+}
